@@ -64,7 +64,7 @@ model.compile(loss='categorical_crossentropy', optimizer='sgd', metrics=['accura
 model_name="my_first_model"
 
 # create a way to monitor our model in Tensorboard
-tensorboard = TensorBoard(log_dir=model_name, histogram_freq=0, write_graph=True, write_images=False) 
+tensorboard = TensorBoard("logs/{}".format(model_name))
 
 # train the model
 model.fit(X_train, y_train, batch_size=32, epochs=10, verbose=1, validation_data=(X_val, y_val), callbacks=[tensorboard])
