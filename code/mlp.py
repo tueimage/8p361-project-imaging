@@ -1,3 +1,9 @@
+"""
+TU/e BME Project Imaging 2019
+Simple multiLayer perceptron code for MNIST
+Author: Suzanne Wetstein
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
@@ -64,7 +70,7 @@ model.compile(loss='categorical_crossentropy', optimizer='sgd', metrics=['accura
 model_name="my_first_model"
 
 # create a way to monitor our model in Tensorboard
-tensorboard = TensorBoard("logs/{}".format(model_name))
+tensorboard = TensorBoard("logs/" + model_name)
 
 # train the model
 model.fit(X_train, y_train, batch_size=32, epochs=10, verbose=1, validation_data=(X_val, y_val), callbacks=[tensorboard])

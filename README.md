@@ -8,7 +8,7 @@ Assignment 1: [Introduction to histopathology image analysis](assignments/introd
 
 Assignment 2: [Neural networks for classification](assignments/mlp.ipynb)
 
-Assignment 3: Convolutional neural networks for classification *TBA*
+Assignment 3: [Convolutional neural networks for classification](assignments/cnn.ipynb)
 
 Assignment 4: Data augmentation *TBA*
 
