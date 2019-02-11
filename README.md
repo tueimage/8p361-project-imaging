@@ -12,7 +12,7 @@ Assignment 3: [Convolutional neural networks for classification](assignments/cnn
 
 Assignment 4: Data augmentation *TBA*
 
-Main project: Classification of histological preparations of lymph node tissue *TBA*
+Main project: [Classification of histological preparations of lymph node tissue](main_project.md)
 
 # Course information
 
