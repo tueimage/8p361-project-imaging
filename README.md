@@ -10,7 +10,7 @@ Assignment 2: [Neural networks for classification](assignments/mlp.ipynb)
 
 Assignment 3: [Convolutional neural networks for classification](assignments/cnn.ipynb)
 
-Assignment 4: Data augmentation *TBA*
+Assignment 4: [Transfer learning](assignments/transfer.ipynb)
 
 Main project: [Classification of histological preparations of lymph node tissue](main_project.md)
 
