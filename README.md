@@ -46,6 +46,10 @@ The students will receive instruction in the following ways:
 * Contact hours with the project instructors for questions, assistance and advice;
 * Online discussion (in Canvas, see below).
 
+Course instructors:
+* Mitko Veta
+* Suzanne Wetstein
+
 ## Recommended preliminary knowledge
 
 8DB00 Image acquisition and Processing, and 8DC00 Medical Image Analysis.
