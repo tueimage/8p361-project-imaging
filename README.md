@@ -1,6 +1,6 @@
 # Project Imaging course (8P361)
 
-The course consists of two main components: assignments and main project work. The goal of the assignments is for the students to get familiar with the topic of the project and develop a minimal working example that will serve as the basis of the main project work. 
+The course consists of two main components: assignments and main project work. The goal of the assignments is for the students to get familiar with the topic of the project and develop a minimal working example that will serve as the basis of the main project work.
 
 # Materials
 
@@ -36,7 +36,7 @@ The assessment will be performed in the following way:
 
 Intermediate feedback will be provided as grades to the submitted assignments and during the regular meetings.
 
-The grading will be done per groups, however, it is possible that individual students get separate grade from the rest of the group (e.g. if they did not sufficiently participate in the work of the group). 
+The grading will be done per groups, however, it is possible that individual students get separate grade from the rest of the group (e.g. if they did not sufficiently participate in the work of the group).
 
 ## Instruction
 
@@ -48,20 +48,20 @@ The students will receive instruction in the following ways:
 
 ## Recommended preliminary knowledge
 
-8DB00 Image acquisition and Arocessing, and 8DC00 Medical Image Analysis.
+8DB00 Image acquisition and Processing, and 8DC00 Medical Image Analysis.
 
 ## Software
 
 The example code for the introductory assignments is written in Python. The students can develop the code for the main project work in Python or a programming environment of their choice.
 
 
-## Deliverables checklist 
+## Deliverables checklist
 
 * Answers and code for the 4 assignments. Each assignment contains a detailed submission checklist.
-* Report and code for the final project. The report should be a 4-6 page paper using the IEEE template available [here](https://www.ieee.org/conferences/publishing/templates.html). The 6 page limit is strict, however, additional information can be provided in an appendix. 
+* Report and code for the final project. The report should be a 4-6 page paper using the IEEE template available [here](https://www.ieee.org/conferences/publishing/templates.html). The 6 page limit is strict, however, additional information can be provided in an appendix.
 
 All submissions should be done in Canvas.
 
 ## Canvas
 
-The [course page in Canvas](https://canvas.tue.nl/courses/8525) will be used for submission of the assignments and final project work, scheduling of the introductory lectures and contact hours and announcements. The students are highly encuraged to use the Discussion section in Canvas. All general questions (e.g. issues with setting up the programming environment, error messages etc., general methodology questions) should be posted in the Discussion section in Canvas. The contact hours should only be used for questions specific to own project work.
+The [course page in Canvas](https://canvas.tue.nl/courses/8525) will be used for submission of the assignments and final project work, scheduling of the introductory lectures and contact hours and announcements. The students are highly encouraged to use the Discussion section in Canvas. All general questions (e.g. issues with setting up the programming environment, error messages etc., general methodology questions) should be posted in the Discussion section in Canvas. The contact hours should only be used for questions specific to own project work.
