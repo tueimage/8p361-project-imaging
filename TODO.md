@@ -4,4 +4,4 @@ Things to improve for the next edition of the course:
 * Move code to main() functions
 * Create course page using GitHub pages
 * <del>Add "References" section in the grading rubric</del>
-* Python version
+* <del>Python version</del>
