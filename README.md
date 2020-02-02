@@ -32,7 +32,8 @@ After passing the course, the student is able to:
 The assessment will be performed in the following way:
 
 * Work on introductory assignments: 20% of the final grade (4 assignments, 5% per assignment);
-* Work on the final project: 80% of the final grade ([assessment rubric](rubric.md)).
+* Work on the final project: 80% of the final grade ([assessment rubric](rubric.md));
+* The final grades will be scaled based on the individual contributions of the students based on the self-assessment report (see the self-assessment assignments in Canvas for more details).
 
 Intermediate feedback will be provided as grades to the submitted assignments and during the regular meetings.
 
