@@ -1,19 +1,23 @@
 '''
-TU/e BME Project Imaging 2019
+TU/e BME Project Imaging 2021
 Convolutional neural network for PCAM
 Author: Mitko Veta
 '''
 
+# disable overly verbose tensorflow logging
 import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # or any {'0', '1', '2'}   
+import tensorflow as tf
+
 
 import numpy as np
 
-from keras.preprocessing.image import ImageDataGenerator
-from keras.models import Model
-from keras.layers import Input, Dense, GlobalAveragePooling2D, Dropout
-from keras.optimizers import SGD
-from keras.callbacks import ModelCheckpoint, TensorBoard
-from keras.applications.mobilenet_v2 import MobileNetV2, preprocess_input
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Input, Dense, GlobalAveragePooling2D, Dropout
+from tensorflow.keras.optimizers import SGD
+from tensorflow.keras.callbacks import ModelCheckpoint, TensorBoard
+from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2, preprocess_input
 
 
 def get_pcam_generators(base_dir, train_batch_size=32, val_batch_size=32):
@@ -21,7 +25,7 @@ def get_pcam_generators(base_dir, train_batch_size=32, val_batch_size=32):
      # dataset parameters
      train_path = os.path.join(base_dir, 'train+val', 'train')
      valid_path = os.path.join(base_dir, 'train+val', 'valid')
-
+	 
      # instantiate data generators
      datagen = ImageDataGenerator(preprocessing_function=preprocess_input)
 

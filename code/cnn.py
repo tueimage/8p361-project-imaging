@@ -1,19 +1,22 @@
 '''
-TU/e BME Project Imaging 2019
+TU/e BME Project Imaging 2021
 Convolutional neural network for PCAM
 Author: Suzanne Wetstein
 '''
 
+# disable overly verbose tensorflow logging
 import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # or any {'0', '1', '2'}   
+import tensorflow as tf
 
 import numpy as np
 
-from keras.preprocessing.image import ImageDataGenerator
-from keras.models import Sequential
-from keras.layers import Dense, Flatten
-from keras.layers import Conv2D, MaxPool2D
-from keras.optimizers import SGD
-from keras.callbacks import ModelCheckpoint, TensorBoard
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Flatten
+from tensorflow.keras.layers import Conv2D, MaxPool2D
+from tensorflow.keras.optimizers import SGD
+from tensorflow.keras.callbacks import ModelCheckpoint, TensorBoard
 
 # unused for now, to be used for ROC analysis
 from sklearn.metrics import roc_curve, auc
@@ -28,6 +31,7 @@ def get_pcam_generators(base_dir, train_batch_size=32, val_batch_size=32):
      # dataset parameters
      train_path = os.path.join(base_dir, 'train+val', 'train')
      valid_path = os.path.join(base_dir, 'train+val', 'valid')
+
 
      RESCALING_FACTOR = 1./255
 
@@ -75,6 +79,7 @@ model = get_model()
 
 # get the data generators
 train_gen, val_gen = get_pcam_generators('/change/me/to/dataset/path')
+
 
 
 # save the model and weights

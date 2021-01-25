@@ -1,17 +1,24 @@
 """
-TU/e BME Project Imaging 2019
+TU/e BME Project Imaging 2021
 Simple multiLayer perceptron code for MNIST
 Author: Suzanne Wetstein
 """
 
+# disable overly verbose tensorflow logging
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # or any {'0', '1', '2'}
+import tensorflow as tf
+
+
+# import required packages
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
-from keras.datasets import mnist
-from keras.utils import np_utils
-from keras.models import Sequential
-from keras.layers import Flatten, Dense
-from keras.callbacks import TensorBoard
+from tensorflow.keras.datasets import mnist
+from tensorflow.keras.utils import to_categorical
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Flatten, Dense
+from tensorflow.keras.callbacks import TensorBoard
 
 
 # load the dataset using the builtin Keras method
@@ -49,9 +56,9 @@ X_test /= 255
 
 
 # convert 1D class arrays to 10D class matrices
-y_train = np_utils.to_categorical(y_train, 10)
-y_val = np_utils.to_categorical(y_val, 10)
-y_test = np_utils.to_categorical(y_test, 10)
+y_train = to_categorical(y_train, 10)
+y_val = to_categorical(y_val, 10)
+y_test = to_categorical(y_test, 10)
 
 
 model = Sequential()

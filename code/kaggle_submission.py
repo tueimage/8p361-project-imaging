@@ -1,10 +1,12 @@
 '''
-TU/e BME Project Imaging 2019
+TU/e BME Project Imaging 2021
 Submission code for Kaggle PCAM
 Author: Suzanne Wetstein
 '''
 
 import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # or any {'0', '1', '2'}   
+import tensorflow as tf
 
 import numpy as np
 
@@ -12,11 +14,11 @@ import glob
 import pandas as pd
 from matplotlib.pyplot import imread
 
-from keras.models import model_from_json
+from tensorflow.keras.models import model_from_json
 
-
-TEST_PATH = '/Users/mitko/8P361/test/none/'
-MODEL_FILEPATH = 'my_first_cnn_model.json'
+#Change these variables to point at the locations and names of the test dataset and your models.
+TEST_PATH = 'C:/Datasets/test/' 
+MODEL_FILEPATH = 'my_first_cnn_model.json' 
 MODEL_WEIGHTS_FILEPATH = 'my_first_cnn_model_weights.hdf5'
 
 # load model and model weights
