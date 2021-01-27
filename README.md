@@ -37,19 +37,23 @@ The assessment will be performed in the following way:
 
 Intermediate feedback will be provided as grades to the submitted assignments and during the regular meetings.
 
-The grading will be done per groups, however, it is possible that individual students get separate grade from the rest of the group (e.g. if they did not sufficiently participate in the work of the group).
+The grading will be done per groups, however, it is possible that individual students get separate grade from the rest of the group (e.g. if they did not sufficiently participate in the work of the group). This will be done based on a self-assessment report (see announcement in Canvas for more details).
 
 ## Instruction
 
 The students will receive instruction in the following ways:
 
 * Introductory lectures;
-* Contact hours with the project instructors for questions, assistance and advice;
+* Contact hours with the project instructors and Teaching assitants for questions, assistance and advice;
 * Online discussion (in Canvas, see below).
 
 Course instructors:
 * Mitko Veta
-* Suzanne Wetstein
+
+Teaching assistants:
+* Stijn Bunk
+* Marieke Vermeulen 
+* Luuk van der Hoek
 
 ## Recommended preliminary knowledge
 
