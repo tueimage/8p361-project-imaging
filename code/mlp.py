@@ -36,7 +36,7 @@ y_train, y_val = train_test_split(y_train, test_size=0.10, random_state=101)
 # the shape of the data matrix is NxHxW, where
 # N is the number of images,
 # H and W are the height and width of the images
-# keras expect the data to have shape NxHxWxH, where
+# keras expect the data to have shape NxHxWxC, where
 # C is the channel dimension
 X_train = np.reshape(X_train, (-1,28,28,1)) 
 X_val = np.reshape(X_val, (-1,28,28,1))
