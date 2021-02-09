@@ -22,7 +22,7 @@ from tensorflow.keras.callbacks import TensorBoard
 
 
 
-def neural_network_classification(datafile, batch_size, epochs, hidden_layers, neurons):
+def neural_network_classification(datafile, model_name, batch_size, epochs, hidden_layers, neurons):
     # load the dataset using the builtin Keras method
     (X_train, y_train), (X_test, y_test) = datafile
 
@@ -68,9 +68,6 @@ def neural_network_classification(datafile, batch_size, epochs, hidden_layers, n
 
     # compile the model
     model.compile(loss='categorical_crossentropy', optimizer='sgd', metrics=['accuracy'])
-
-    # use this variable to name your model
-    model_name = "my_first_model"
 
     # create a way to monitor our model in Tensorboard
     tensorboard = TensorBoard("logs/{}".format(model_name))
