@@ -78,7 +78,7 @@ def neural_network_classification(datafile, batch_size, epochs, hidden_layers, n
     # train the model
     model.fit(X_train, y_train, batch_size, epochs, verbose=1, validation_data=(X_val, y_val),
               callbacks=[tensorboard])
-    
+
     score = model.evaluate(X_test, y_test, verbose=0)
 
     print("Loss: ", score[0])
