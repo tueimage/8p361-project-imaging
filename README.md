@@ -51,9 +51,11 @@ Course instructors:
 * Mitko Veta
 
 Teaching assistants:
-* Stijn Bunk
-* Marieke Vermeulen 
-* Luuk van der Hoek
+* Heather Hanegraaf
+* Thomas Korsten
+* Kirsten Lukassen
+* Glenn Bouwman
+* Laslo van Anrooij.
 
 ## Recommended preliminary knowledge
 
