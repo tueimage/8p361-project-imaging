@@ -55,7 +55,7 @@ Teaching assistants:
 * Thomas Korsten
 * Kirsten Lukassen
 * Glenn Bouwman
-* Laslo van Anrooij.
+* Laslo van Anrooij
 
 ## Recommended preliminary knowledge
 
