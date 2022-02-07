@@ -65,7 +65,7 @@ output = Dense(1, activation='sigmoid')(output)
 model = Model(input, output)
 
 # note the lower lr compared to the cnn example
-model.compile(SGD(lr=0.001, momentum=0.95), loss = 'binary_crossentropy', metrics=['accuracy'])
+model.compile(SGD(learning_rate=0.001, momentum=0.95), loss = 'binary_crossentropy', metrics=['accuracy'])
 
 # print a summary of the model on screen
 model.summary()
@@ -96,7 +96,7 @@ val_steps = val_gen.n//val_gen.batch_size//20
 
 # since the model is trained for only 10 "mini-epochs", i.e. half of the data is
 # not used during training
-history = model.fit_generator(train_gen, steps_per_epoch=train_steps,
+history = model.fit(train_gen, steps_per_epoch=train_steps,
                     validation_data=val_gen,
                     validation_steps=val_steps,
                     epochs=10,
