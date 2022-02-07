@@ -68,7 +68,7 @@ def get_model(kernel_size=(3,3), pool_size=(4,4), first_filters=32, second_filte
 
 
      # compile the model
-     model.compile(SGD(lr=0.01, momentum=0.95), loss = 'binary_crossentropy', metrics=['accuracy'])
+     model.compile(SGD(learning_rate=0.01, momentum=0.95), loss = 'binary_crossentropy', metrics=['accuracy'])
 
      return model
 
@@ -102,7 +102,7 @@ callbacks_list = [checkpoint, tensorboard]
 train_steps = train_gen.n//train_gen.batch_size
 val_steps = val_gen.n//val_gen.batch_size
 
-history = model.fit_generator(train_gen, steps_per_epoch=train_steps,
+history = model.fit(train_gen, steps_per_epoch=train_steps,
                     validation_data=val_gen,
                     validation_steps=val_steps,
                     epochs=3,
