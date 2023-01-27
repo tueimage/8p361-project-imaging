@@ -51,10 +51,10 @@ Course instructors:
 * Mitko Veta
 
 Teaching assistants:
-Stefan Rademakers
-Jurre Weijer
-Thomas Korsten
-Rebecca Pelsser
+* Stefan Rademakers
+* Jurre Weijer
+* Thomas Korsten
+* Rebecca Pelsser
 
 ## Recommended preliminary knowledge
 
