@@ -51,11 +51,10 @@ Course instructors:
 * Mitko Veta
 
 Teaching assistants:
-* Heather Hanegraaf
-* Thomas Korsten
-* Kirsten Lukassen
-* Glenn Bouwman
-* Laslo van Anrooij
+Stefan Rademakers
+Jurre Weijer
+Thomas Korsten
+Rebecca Pelsser
 
 ## Recommended preliminary knowledge
 
