@@ -33,7 +33,7 @@ model.load_weights(MODEL_WEIGHTS_FILEPATH)
 
 
 # open the test set in batches (as it is a very big dataset) and make predictions
-test_files = glob.glob(TEST_PATH + '*.tif')
+test_files = glob.glob(os.path.join(TEST_PATH, '*.tif'))
 
 submission = pd.DataFrame()
 
