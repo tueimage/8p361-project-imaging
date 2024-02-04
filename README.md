@@ -69,7 +69,7 @@ The example code for the introductory assignments is written in Python. The stud
 
 * Answers and code for the 4 assignments. Each assignment contains a detailed submission checklist.
 * Report and code for the final project. The report should be a 4-6 page paper using the IEEE template available [here](https://www.ieee.org/conferences/publishing/templates.html). The 6 page limit is strict, however, additional information can be provided in an appendix.
-* Mid-term and final self-assessment reports
+* Mid-term and final self-assessment reports.
 * If you use large language models (such as ChatGPT) in your course work, the self-assessment reports should include a reflection on the use of such tools.
 
 All submissions should be done in Canvas.
