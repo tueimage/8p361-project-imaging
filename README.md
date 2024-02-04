@@ -1,4 +1,4 @@
-# Project Imaging course (8P361)
+# Project AI for medical image analysis (8P361)
 
 The course consists of two main components: assignments and main project work. The goal of the assignments is for the students to get familiar with the topic of the project and develop a minimal working example that will serve as the basis of the main project work.
 
@@ -51,10 +51,10 @@ Course instructors:
 * Mitko Veta
 
 Teaching assistants:
-* Stefan Rademakers
 * Jurre Weijer
-* Thomas Korsten
-* Rebecca Pelsser
+* Marcus Vroemen
+* Nadiya Lyakh
+* Marijn Borghouts
 
 ## Recommended preliminary knowledge
 
