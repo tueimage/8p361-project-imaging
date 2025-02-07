@@ -51,10 +51,11 @@ Course instructors:
 * Mitko Veta
 
 Teaching assistants:
-* Jurre Weijer
 * Marcus Vroemen
-* Nadiya Lyakh
-* Marijn Borghouts
+* Jeroen Norg
+* Niels van Noort 
+* Fijten Vlasman 
+* Simon Habraken
 
 ## Recommended preliminary knowledge
 
